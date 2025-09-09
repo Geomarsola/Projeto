@@ -21,11 +21,11 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse" id="navbar">
             <a href="/" class="navbar-brend">
-             <img src="/img/projeto1.jpg" alt="ForgeOne Events">   
+             <img src="/img/projeto14.jpg" alt="ForgeOne Events">   
             </a>
             <ul class="navbar-nav">
              <li class="nav-item">
-                <a href="/" class="nav-link">Cadastar</a>
+                <a href="/" class="nav-link">Cadastrar</a>
              </li> 
                           <li class="nav-item">
                 <a href="/" class="nav-link">Entar</a>
@@ -36,9 +36,7 @@
                           <li class="nav-item">
                 <a href="/events\create" class="nav-link">Criar Evento</a>
              </li> 
-                        <li class="nav-item">
-                <a href="/" class="nav-link">Produtos</a>
-             </li>  
+               
             </ul>
         </div>
     </nav>
