@@ -35,6 +35,16 @@ header {
 
 }
 
+.msg {
+    background: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
 /* navbar */
 #navbar img {
     width: 40px;
@@ -98,11 +108,11 @@ header {
 }
 
 #cards-container .card {
-  flex: 1 1 0;
-  max-width: 25%;
-  border-radius: 10px;
-  padding: 0;
-  margin: 5px;
+   flex: 1 1 0;
+   max-width: 25%;
+   border-radius: 10px;
+   padding: 0;
+   margin: 5px;
 }
 
 #cards-container img {
