@@ -12,7 +12,6 @@ body {
 header {
     background-color: #FFF;
     border-bottom: 1xpx solid #CCC;
-
 }
 
 .row {
@@ -26,13 +25,11 @@ header {
 .btn-primary{
     background-color: #F2A340;
     border: 2px solid #C28008;
-
 }
 
 .btn-primary {
     background-color: #C28008;
     border-color: #C28008;
-
 }
 
 .msg {
@@ -53,15 +50,13 @@ header {
 #navbar {
     justify-content: space-between;
     background-color: #FFF;
-    padding: 5px 0;
-    
+    padding: 5px 0;  
 }
 
 
 #navbar a {
     font-size: 14px;
     color: #757575;
-
 }
 
 #navbar a:hover {
@@ -107,12 +102,16 @@ header {
     margin-bottom: 30px;
 }
 
+#cards-container {
+  display: flex;
+}
+
 #cards-container .card {
-   flex: 1 1 0;
+   flex: 1 1 24%;
    max-width: 25%;
    border-radius: 10px;
    padding: 0;
-   margin: 5px;
+   margin: .5px;
 }
 
 #cards-container img {
