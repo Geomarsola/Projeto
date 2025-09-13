@@ -1,5 +1,5 @@
 /* General */
-*{
+* {
     font-family: 'Roboto';
 }
 
@@ -22,12 +22,12 @@ header {
     padding: 0;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #F2A340;
     border: 2px solid #C28008;
 }
 
-.btn-primary {
+.btn-primary:houver {
     background-color: #C28008;
     border-color: #C28008;
 }
@@ -132,7 +132,7 @@ header {
     margin-bottom: 30px;
 }
 
-.card .card-participants {
+.card-participants {
     font-size: 14px;
     color: #757575;
 }
