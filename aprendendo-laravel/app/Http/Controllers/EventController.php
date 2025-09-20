@@ -9,7 +9,7 @@ use App\Models\Event;
 use App\Models\User;
 
 class EventController extends Controller
-{
+   {
      public function index() {
 
         $search = request('search');
