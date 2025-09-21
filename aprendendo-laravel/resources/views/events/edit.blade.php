@@ -20,22 +20,22 @@
         </div>
                 <div class="form-group">
             <label for="date">Data do evento:</label>
-            <input type="date" class="form-control" id="date" name="date" value="{{ $event->date->format('Y-m-d') }}">
+            <input type="date" class="form-control" id="date" name="date" value="{{ \Carbon\Carbon::parse($event->date)->format('Y-m-d') }}">
         </div>
         <div class="form-group">
             <label for="title">Cidade:</label>
-            <input type="text" class="form-control" id="city" name="city" placeholder="Local do evento">
+            <input type="text" class="form-control" id="city" name="city" placeholder="Local do evento" value="{{ $event->city }}">
         </div>
         <div class="form-group">
             <label for="title">O evento é privado?</label>
             <select name="private" id="private" class="form-control">
                 <option value="0">Não</option>
-                <option value="1">Sim</option>
+                <option value="1" {{ $event->private == 1 ? "selected='selected'" : "" }}>Sim</option>
             </select>
         </div>
         <div class="form-group">
             <label for="title">Descrição:</label>
-            <textarea name="description" id="description" class="form-control" placeholder="O que vai acontecer no evento?"></textarea>
+            <textarea name="description" id="description" class="form-control" placeholder="O que vai acontecer no evento?"> {{ $event->description }}</textarea>
         </div>
         <div class="form-group">
             <label for="title">Adicione itens de infraestrutura:</label>
@@ -58,7 +58,7 @@
                 <input type="checkbox" name="items[]" value="Refrigerante"> Refrigerante
             </div>
         </div>
-        <input type="submit" class="btn btn-primary" value="Criar Evento">
+        <input type="submit" class="btn btn-primary" value="Editar Evento">
 
     </form>
 </div>
